@@ -1,0 +1,252 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+}
+.navbar {
+    background-color: #D2B48C;
+    color: #fff;
+    padding: 10px 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.nav a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+#home {
+  background-color: #ffeed9;
+    color: #000000;
+    padding: 100px 0;
+    
+}
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+#home h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #444;
+}
+#gallery {
+    padding: 80px 0;
+  }
+  .heading {
+    text-align: center;
+  }
+  hr {
+    width: 200px;
+    border-top: 2px solid #000000;
+    margin: 5px auto 20px auto;
+  }
+  .wow2 {
+    display: inline-block;
+    width: 24%;
+    margin: 0 1% 30px 1%;
+    vertical-align: top;
+  }
+  .wow2 a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .wow2 img {
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .wow2 img:hover {
+    transform: scale(1.1);
+  }
+ 
+  .wow2 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  .wow2 span {
+    color: #666;
+    font-size: 14px;
+  }
+.menu {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+.menu:hover {
+    transform: translateY(-5px);
+}
+.menu h4 {
+    margin-left: 70px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+.menu span {
+    float: right;
+    color: #555;
+}
+.menu h5 {
+    font-size: 1em;
+    color: #777;
+}
+#contact .container {
+    text-align: center
+}
+.ph, .address, .wow {
+    margin-bottom: 20px;
+}
+h2.heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+h4 {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+footer {
+    background-image: url(./1612767198_80-p-fon-goluboe-nebo.jpg);
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer h2 {
+    font-size: 1.2em;
+}
+footer p {
+    margin: 5px 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+.wow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #D2B48C;
+}
+
+
+#copyright{
+    background-color: #ffeed9;
+}
+.copy{
+    color: black;
+}
+#abb{
+    text-decoration-line: underline;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.media-item {
+    flex: 1 1 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.media-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.media-item img,
+.media-item video {
+    max-width: 60%;
+    border-bottom: 2px solid #3cb371;
+}
+
+.media-item p {
+    padding: 10px;
+    color: #2e8b57; 
+}
+
+video {
+    max-width: 60%;
+    height: auto;
+}
+
+.audio-player {
+    padding: 15px;
+    background-color: #eafaf1; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.audio-player audio {
+    width: 100%;
+    outline: none; 
+}
+#content{
+    text-decoration: underline;
+}
+#h33{
+    text-align: center;
+    text-decoration: underline;
+}
+#h333{
+    text-align: center;
+}
